@@ -1,0 +1,16 @@
+﻿<catel:DataWindow x:Class="ModelReset.Views.EditWindow"
+                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:catel="http://schemas.catelproject.com">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBox Grid.Row="0" Grid.Column="0" Text="{Binding Description}" />
+        <Button Grid.Row="1" Grid.Column="0" Command="{Binding Reset}" Content="Reset Model"/>
+    </Grid>
+
+</catel:DataWindow>

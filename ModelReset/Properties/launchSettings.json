@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ModelReset": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
